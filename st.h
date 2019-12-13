@@ -87,6 +87,7 @@ void die(const char *, ...);
 void redraw(void);
 void draw(void);
 
+void newterm(const Arg *);
 void externalpipe(const Arg *);
 void iso14755(const Arg *);
 void kscrolldown(const Arg *);
